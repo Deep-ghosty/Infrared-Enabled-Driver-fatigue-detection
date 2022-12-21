@@ -2,9 +2,11 @@ import cv2
 import numpy as np
 import dlib
 from imutils import face_utils
+import pygame
 
+pygame.init()
+sound = pygame.mixer.Sound("alarm.wav")
 
-cap = cv2.VideoCapture(0)
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
@@ -32,13 +34,16 @@ def blinked(a,b,c,d,e,f):
 	else:
 		return 0
 
-
+cap = cv2.VideoCapture(0)
 while True:
     _, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+    # Convert the frame to grayscale
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
     faces = detector(gray)
-    
+    face_frame = np.zeros_like(frame)
     for face in faces:
         x1 = face.left()
         y1 = face.top()
@@ -65,15 +70,18 @@ while True:
         	if(sleep>6):
         		status="SLEEPING !!!"
         		color = (255,0,0)
-
+				
         elif(left_blink==1 or right_blink==1):
         	sleep=0
         	active=0
         	drowsy+=1
         	if(drowsy>6):
-        		status="Drowsy !"
+        		status="Drowsy!"
         		color = (0,0,255)
+        		# Play the sound file
+        		sound.play()
 
+				
         else:
         	drowsy=0
         	sleep=0
