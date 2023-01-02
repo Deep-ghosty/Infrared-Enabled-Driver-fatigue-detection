@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 - Run the snoozing detection script: 
 ```
-python detect_snoozing.py
+python driver_drowsiness.py
 ```
 
 
