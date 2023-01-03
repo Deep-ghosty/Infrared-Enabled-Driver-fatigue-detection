@@ -6,7 +6,7 @@ The Driver-Snoozing-System is a machine learning system designed to detect when 
 # Usage
 - Clone the repository: 
 ```
-git clone https://github.com/your-username/driver-snoozing-system.git
+git clone https://github.com/Deep-ghosty/driver-snoozing-system.git
 ```
 - Install the necessary libraries: 
 ```
