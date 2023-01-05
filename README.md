@@ -21,3 +21,8 @@ python driver_drowsiness.py
 # Acknowledgments
 - The shape_predictor_68_face_landmarks.dat file was trained using the dlib library.
 - The face detection functionality is based on the **OpenCV** library.
+
+
+Repo holders
+Ekansh rajput  🔗🔗 https://github.com/Regression1607
+Divyansh mittal  🔗🔗 ttps://github.com/Divyansh-Mitta01
