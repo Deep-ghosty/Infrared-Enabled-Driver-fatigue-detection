@@ -107,4 +107,4 @@ python driver_drowsiness.py
 
 Repo holders
 Ekansh rajput  🔗🔗 https://github.com/Regression1607
-Divyansh mittal  🔗🔗 ttps://github.com/Divyansh-Mitta01
+Divyansh mittal  🔗🔗 https://github.com/Divyansh-Mitta01
