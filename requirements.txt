@@ -5,13 +5,12 @@ opencv-python==4.5.0
 imutils==0.5.3
 face_utils
 
-Installation of dlib is quiet a difficult task
-for new contributor.
+#Installation of dlib is quiet a difficult task for new contributor.
 
-For python 3.10 version  you can simply download the dlib for python 3.10
+#For python 3.10 version  you can simply download the dlib for python 3.10
 
-For further versions you can use another option
+#For further versions you can use another option
 
-Download cmake and do installation,place the cmake bim in path.
+#Download cmake and do installation,place the cmake bim in path.
 
-Use yt preferences to install dlib through visual studio community build.
+#Use yt preferences to install dlib through visual studio community build.
