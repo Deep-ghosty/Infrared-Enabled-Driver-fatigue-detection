@@ -1,6 +1,17 @@
-# Driver-Snoozing-System
 
-The Driver-Snoozing-System is a machine learning system designed to detect when a driver is falling asleep at the wheel and alert them before an accident occurs. The system uses the **shape_predictor_68_face_landmarks.dat file**, which contains data about the location of 68 facial landmarks on a person's face, to analyze the driver's face and determine if they are exhibiting signs of drowsiness.
+
+<h1 align="center">Driver-Snoozing-System</h1> 
+<div align="center">
+  <img src="https://media3.giphy.com/media/3orieNJUfjfm4txQkg/giphy.gif?cid=ecf05e47xg5nqugakk8npub55zzcpktosnjxvmrhgu7rxg8f&rid=giphy.gif&ct=g.gif" border="0"></
+  </p>
+
+  
+</The Driver-Snoozing-System is a machine learning system designed to detect when a driver is falling asleep at the wheel and alert them before an accident occurs. The system uses the **shape_predictor_68_face_landmarks.dat file**, which contains data about the location of 68 facial landmarks on a person's face, to analyze the driver's face and determine if they are exhibiting signs of drowsiness.</p>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+</div>
 
 ## How to Contribute?
 
@@ -109,3 +120,12 @@ Repo holders
 Ekansh rajput  🔗🔗 https://github.com/Regression1607
 <br>
 Divyansh mittal  🔗🔗 https://github.com/Divyansh-Mitta01</br>
+
+[contributors-shield]: https://img.shields.io/github/contributors/Deep-ghosty/Driver-Snoozing-System.svg?style=for-the-badge
+[contributors-url]: https://github.com/Deep-ghosty/Driver-Snoozing-System/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Deep-ghosty/Driver-Snoozing-System.svg?style=for-the-badge
+[forks-url]: https://github.com/Deep-ghosty/Driver-Snoozing-System/network/members
+[stars-shield]: https://img.shields.io/github/stars/Deep-ghosty/Driver-Snoozing-System.svg?style=for-the-badge
+[stars-url]: https://github.com/Deep-ghosty/Driver-Snoozing-System/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Deep-ghosty/Driver-Snoozing-System.svg?style=for-the-badge
+[issues-url]: https://github.com/Deep-ghosty/Driver-Snoozing-System/issues
