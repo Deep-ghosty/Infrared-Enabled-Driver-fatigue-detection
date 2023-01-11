@@ -2,8 +2,9 @@
 
 Welcome to Python IR Person Detection! This project aims to provide a simple and efficient solution for detecting people in infrared (IR) images using Python.
 
-### link to download the pretrained haarcascade_frontalface_default.xml
+### link to download the pretrained haarcascade files
 https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
+https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_eye.xml
 
 ## Features
 - detection of people in IR images, even under challenging lighting conditions
