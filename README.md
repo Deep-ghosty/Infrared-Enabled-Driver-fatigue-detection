@@ -6,7 +6,7 @@
   </p>
 
   
-</The Driver-Snoozing-System is a machine learning system designed to detect when a driver is falling asleep at the wheel and alert them before an accident occurs. The system uses the **shape_predictor_68_face_landmarks.dat file**, which contains data about the location of 68 facial landmarks on a person's face, to analyze the driver's face and determine if they are exhibiting signs of drowsiness.</p>
+The Driver-Snoozing-System is a machine learning system designed to detect when a driver is falling asleep at the wheel and alerts the driver before an accident occurs. The system uses the **shape_predictor_68_face_landmarks.dat file**, which contains data about the location of 68 facial landmarks on a person's face, to analyze the driver's face and determine if they are exhibiting signs of drowsiness.</p>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -16,7 +16,7 @@
 ## How to Contribute?
 
 - Take a look at the existing [Issues](https://github.com/Deep-ghosty/Driver-Snoozing-System/issues) 
-- Fork the Repo create a branch for any issue that you are working on and commit your work.
+- Fork the Repo, create a branch for any issue that you are working on, and commit your work.
 - Create a ** [Pull Request](https://github.com/Deep-ghosty/Driver-Snoozing-System/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
 
@@ -96,8 +96,9 @@ git push origin YourBranchName
 
 **11.** **Congratulations!** You've made your first contribution! 🙌🏼
 
-# Usage
-- Clone the repository: 
+# Usage 
+_To get a local copy up and running follow these simple steps._
+- Clone the repository with 
 ```
 git clone https://github.com/Deep-ghosty/driver-snoozing-system.git
 ```
