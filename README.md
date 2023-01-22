@@ -112,14 +112,14 @@ python driver_drowsiness.py
 
 
 # Acknowledgments
-- The shape_predictor_68_face_landmarks.dat file was trained using the dlib library.
-- The face detection functionality is based on the **OpenCV** library.
+- The shape_predictor_68_face_landmarks.dat file was trained using the [**dlib**](http://dlib.net/) library.
+- The face detection functionality is based on the [**OpenCV**](https://opencv.org/) library.
 
 
-Repo holders
-Ekansh rajput  🔗🔗 https://github.com/Regression1607
+ ### Repo holders
+[Ekansh rajput](https://github.com/Regression1607)
 <br>
-Divyansh mittal  🔗🔗 https://github.com/Divyansh-Mitta01</br>
+[Divyansh mittal](https://github.com/Divyansh-Mitta01 )</br>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Deep-ghosty/Driver-Snoozing-System.svg?style=for-the-badge
 [contributors-url]: https://github.com/Deep-ghosty/Driver-Snoozing-System/graphs/contributors
