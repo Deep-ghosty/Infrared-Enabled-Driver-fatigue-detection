@@ -7,6 +7,9 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # Initialize the video stream
 cap = cv2.VideoCapture(0)
 
+# Initialize a counter for saved screenshots
+screenshot_counter = 0
+
 # Loop indefinitely
 while True:
     # Read the frame from the video stream
@@ -25,8 +28,18 @@ while True:
     # Display the frame
     cv2.imshow('Infrared Camera', frame)
 
+    # Check for key press events
+    key = cv2.waitKey(1) & 0xFF
+
+    # Save a screenshot when 's' key is pressed
+    if key == ord('s'):
+        screenshot_filename = f'screenshot_{screenshot_counter}.png'
+        cv2.imwrite(screenshot_filename, frame)
+        print(f'Screenshot saved as {screenshot_filename}')
+        screenshot_counter += 1
+
     # Check if the user pressed the 'q' key
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if key == ord('q'):
         break
 
 # Release the video stream
