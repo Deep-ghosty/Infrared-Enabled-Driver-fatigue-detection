@@ -14,3 +14,5 @@ face_utils
 #Download cmake and do installation,place the cmake bim in path.
 
 #Use yt preferences to install dlib through visual studio community build.
+
+#If you are facing issue to install dlib I have provide whl file for dlib ,Steps r simple if u have python version 3.10 something then download that "dlib-19.22.99-cp310-cp310-win_amd64.whl" file in your file directory and on cmd or terminal run this command: pip install "dlib-19.22.99-cp310-cp310-win_amd64.whl"
